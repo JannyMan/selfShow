@@ -1,0 +1,77 @@
+
+/*1rem = 100px*/
+html,body,a{
+    font-size: 0.16rem;
+}
+ul,ol,dl{
+    list-style: none;
+    padding: 0;
+}
+html{
+    background-color: #071425;
+}
+body{
+    background-color: transparent;
+}
+.navbar{
+    background-color: transparent;
+    margin-bottom: 0;
+}
+.navbar .nav{
+    float: right;
+}
+.navbar .nav>li>a{
+    color: #fff;
+    padding: 0.05rem 0.05rem;
+}
+.navbar .nav>.active{
+
+}
+.nav-pills>li.active>a{
+    background-color: #F15C31;
+}
+
+.con .row .png_left ul li{
+    float: left;
+    margin-left: 1%;
+}
+.con .row .png_left ul{
+    padding: 0;
+}
+.con .row .con_left{
+    margin-top: 0.1rem;
+    width: 30%;
+    float: left;
+    height: 5rem;
+    background-color: skyblue;
+    margin-left: 1%;
+}
+.con .row .con_right{
+    margin-top: 0.1rem;
+    width: 69%;
+    float: left;
+    height: 5rem;
+    background-color: red;
+}
+.con .row .png_right ul li{
+    margin-top: 0.1rem;
+    height: 1.78rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

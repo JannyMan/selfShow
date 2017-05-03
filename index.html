@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>demo</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/index.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <script src="js/adaptive.js"></script>
+    <script>
+        window['adaptive'].desinWidth = 1366; // 设计图宽度
+        window['adaptive'].baseFont = 24;   //没有缩放时的字体大小
+        window['adaptive'].scaleType = 1; // 1为默认值，可以不用设置
+        window['adaptive'].init();  // 调用初始化方法
+    </script>
+
+</head>
+<body>
+<nav class="navbar">
+    <ul class="nav nav-pills">
+        <li role="presentation" class="active"><a href="#">系统主页</a></li>
+        <li role="presentation"><a href="#">系统管理</a></li>
+        <li role="presentation"><a href="#">退出系统</a></li>
+    </ul>
+</nav>
+<section class="con">
+    <!--<div class="con_left"></div>-->
+    <!--<div class="con_right"></div>-->
+    <div class="row">
+        <div class="col-xs-9 col-sm-9 col-md-9 png_left" style=";padding-top: 0;">
+
+            <ul>
+                <li style="width: 10%; height: 50px; background: red;"></li>
+                <li style="width: 10%; height: 50px; background: blue;"></li>
+                <li style="width: 10%; height: 50px; background: green;"></li>
+                <li style="width: 10%; height: 50px; background: Cyan;"></li>
+                <li style="width: 10%; height: 50px; background: Lime;"></li>
+                <li style="width: 10%; height: 50px; background: #f60;"></li>
+                <li style="width: 10%; height: 50px; background: #2e2e2e;"></li>
+                <li style="width: 10%; height: 50px; background: #ccc;"></li>
+                <li style="width: 10%; height: 50px; background: #2b2b2b;"></li>
+            </ul>
+            <div class="con_left"></div>
+            <div class="con_right"></div>
+        </div>
+
+        <div class="col-xs-3 col-sm-3 col-md-3 png_right" >
+            <ul>
+                <li style="background: Cyan;">计算统计</li>
+                <li style="background: lime;">计算预警</li>
+                <li style="background: orange;">计算分析</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
