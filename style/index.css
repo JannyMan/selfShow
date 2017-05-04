@@ -8,11 +8,16 @@ ul,ol,dl{
     padding: 0;
     float: none;
 }
+p{
+    margin: 0 0 0.1rem;
+}
 html{
-    background-color: #071425;
+    /*background-color: #071425;*/
+    background: url("../images/bg.png");
 }
 body{
     background-color: transparent;
+    box-sizing: border-box;
 }
 .navbar{
     background-color: transparent;
@@ -75,7 +80,7 @@ body{
     background-color: red;
 }
 .con .row .png_right ul li{
-    margin-top: 0.1rem;
+    /*margin-top: 0.1rem;*/
     height: 1.78rem;
 }
 
